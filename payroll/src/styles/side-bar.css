@@ -1,7 +1,9 @@
+::-webkit-scrollbar{
+    display: none;
+}
 .side-bar{
     position: absolute;
     width: 269px;
-   
     height: 902px;
     left: 0px;
     top: 0px;
@@ -11,7 +13,9 @@
     align-items: left;
     text-align:left ;
     padding-top: 40px;
-  
+    overflow:auto;
+    padding-right: 15px;
+   
 }
 .side-bar-logo img{
     width: 145px;
@@ -21,35 +25,100 @@
 .side-bar-logo{
     justify-content: center;
     text-align:left;
-    margin-bottom: 45px;
-    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-left: 45px;
 }
 
-.Sidebar-bar-menus .side-bar-menu .side-bar-menu-icon{
-    display: inline-block;
+.Sidebaritem {
+    display:block;
     color: #545454;
-    margin-right:15px ;
-    margin-left: 15px;
+
+    margin-left: 10px;
     
 }
-.side-bar-menu{
+.sidebaritem-plain{
+    display:flex;
+    color: #545454;
+    align-items: center;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
     color: #545454;
-}
-.Sidebar-bar-menus ul li a{
+    margin-left:40px;
+    margin-bottom: 35px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.sidebaritem-plain i {
+    display: inline-block;
+    width: 2em;
+    
+}
+
+.sidebar-title{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #545454;
+    margin-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+
+    
 
 }
-.Sidebar-bar-menus ul li{
-    margin-bottom: 40px;
-}
-.Sidebar-bar-menus .side-bar-menu .side-bar-menu-icon-red{
-    color: #D62300;
+.sidebar-title span i{
     display: inline-block;
-    margin-right:15px ;
-    margin-left: 15px;
+    width: 2em;
+}
+
+
+.sidebar-title .toggle-btn{
+    margin-left: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.content{
+    margin-top: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #414141;
+    cursor: pointer;
+    height:0;
+    overflow:hidden;
+    margin-bottom: 20px;
+
+}
+
+i.bi.bi-dot::before{
+    font-size: 30px;
+}
+
+.bi.bi-box-arrow-left{
+    color: red;
+}
+
+
+.Sidebaritem.open > .sidebar-title .toggle-btn{
+    transform: rotate(90deg);
+}
+
+.Sidebaritem.open > .content{
+    
+    height: auto;
+    display:block;
+    
+}
+.Sidebaritem.open{
+    margin-bottom: 0;
 }

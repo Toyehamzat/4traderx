@@ -1,0 +1,94 @@
+
+[
+    {
+        "title":"Home",
+        "icon":"bi bi-house-door-fill",
+        "path":"/home"
+    },
+    {
+        "title":"Account",
+        "icon":"bi bi-wallet-fill",
+        "path":"/account"
+    },
+    {
+        "title":"Exchange",
+        "icon":"bi bi-currency-exchange",
+        "path":"/exchange"
+    },
+    {
+        "title":"Buy/Sell",
+        "icon":"bi bi-archive-fill",
+        "path":"/buysell"
+    },
+    {
+        "title":"Payroll",
+        "icon":"bi bi-receipt-cutoff",
+
+        "childrens":[
+            {
+                "title":"Dashboard",
+                "icon":"bi bi-dot",
+                "path":"/dashboard"
+            },
+            {
+                "title":"Know Your Team",
+                "icon":"bi bi-dot",
+                "path":"/know-team"
+            },
+            {
+                "title":"Know Your Products",
+                "icon":"bi bi-dot",
+                "path":"/know-product"
+            },
+            {
+                "title":"Decision",
+                "icon":"bi bi-dot",
+                "childrens":[
+                    {
+                        "title":"Make a decision",
+                        "icon":"bi bi-dot",
+                        "path":"/make-decision"
+                    },
+                    {
+                        "title":"View decision",
+                        "icon":"bi bi-dot",
+                        "path":"/view-decision"
+                    }
+                ]
+            },
+            {
+                "title":"Suggestion",
+                "icon":"bi bi-dot",
+                "childrens":[
+                    {
+                        "title":"Make a suggestion",
+                        "icon":"bi bi-dot",
+                        "path":"/make-suggestion"
+                    },
+                    {
+                        "title":"View suggestion",
+                        "icon":"bi bi-dot",
+                        "path":"/view-suggestion"
+                    }
+                ]
+            },
+            {
+                "title":"Request Time off",
+                "icon":"bi bi-dot",
+                "path":"/request-time-off"
+            }
+        
+        ]
+    },
+    {
+        "title":"Settings",
+        "icon":"bi bi-gear-fill",
+        "path":"/settings"
+    },
+    {
+        "title":"Logout",
+        "icon":"bi bi-box-arrow-left",
+        "path":"/logout"
+    }
+
+]

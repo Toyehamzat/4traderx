@@ -6,8 +6,9 @@
   }
   
   body {
-    background-color: #f4f4f4;;
+    background-color: #ededed;;
     font-family: 'Mulish', sans-serif;
+    scroll-behavior: smooth;
   }
   
   .App {
