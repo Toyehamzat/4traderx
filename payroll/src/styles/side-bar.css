@@ -2,9 +2,11 @@
     display: none;
 }
 .side-bar{
-    position: absolute;
+   grid-column:1/1;
+   grid-row: 1/-1;
+    flex-shrink:0;
     width: 269px;
-    height: 902px;
+    height: 100%;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
@@ -32,9 +34,13 @@
 .Sidebaritem {
     display:block;
     color: #545454;
-
+    transition: 1s all ease-in-out;
     margin-left: 10px;
     
+}
+
+.Sidebaritem:hover{
+    color: #00A859;
 }
 .sidebaritem-plain{
     display:flex;
@@ -50,6 +56,11 @@
     margin-bottom: 35px;
     text-decoration: none;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.sidebaritem-plain:hover{
+    color: #00A859;
+
 }
 
 .sidebaritem-plain i {
@@ -71,10 +82,15 @@
     margin-left: 30px;
     margin-bottom: 12px;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 
     
 
 }
+.sidebar-title:hover{
+    color: #00A859;
+}
+
 .sidebar-title span i{
     display: inline-block;
     width: 2em;
@@ -121,4 +137,7 @@ i.bi.bi-dot::before{
 }
 .Sidebaritem.open{
     margin-bottom: 0;
+}
+.Sidebaritem.open > .sidebar-title{
+    color: #00A859;
 }

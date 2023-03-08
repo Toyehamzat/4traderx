@@ -3,6 +3,7 @@
   body {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
   }
   
   body {
@@ -11,9 +12,22 @@
     scroll-behavior: smooth;
   }
   
-  .App {
-    position: relative;
-  }
+
   li{
     list-style: none;
   }
+ .app{
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  grid-template-rows: 1fr 4fr;
+  height: 100vh;
+
+  width: 100%;
+
+ }
+ .header-main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+ }

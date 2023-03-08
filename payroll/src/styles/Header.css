@@ -1,0 +1,89 @@
+.Header{
+    grid-column:2/-1;
+    grid-row: 1/2;
+    position: relative;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+}
+.search-bar i{
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    color: #9F9F9F;
+    font-size: 18px;
+
+}
+.search-bar input{
+    width: 604px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+    outline: none;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #9F9F9F;
+    padding-left: 50px;
+
+}
+.notification-profile{
+    display: flex;
+    height: 70px;
+    gap: 10px;
+}
+.notification{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-left: 1.5px solid #DDDDDD;
+    border-right: 1.5px solid #DDDDDD;
+    height: 65px;
+    padding: 5px;
+
+}
+ .noty{
+    position: absolute;
+    top: 47%;
+    left: 74.3%;
+ }
+.profile{
+    display: flex;
+
+}
+.profile div{
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: left;
+}
+.profile div p {
+    margin: 0%;
+
+}
+.name{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #3D3D3D;
+}
+.x{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #3D3D3D;
+}
