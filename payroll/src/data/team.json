@@ -1,0 +1,56 @@
+[
+    {
+        "profilePic":"../component/images/Rectangle 3390.svg",
+        "Name":"Micheal Ajayi",
+        "title":"CEO and Founder",
+        "path":"/KnowTeam/Micheal"
+    },
+    {
+        "profilePic":"",
+        "Name":"Henry Omezi",
+        "title":"Co-Founder",
+        "path":"/KnowTeam/Henry-Omezi"
+    },
+    {
+        "profilePic":"../component/images/Rectangle 3390.svg",
+        "Name":"Gbogboade Ayomide",
+        "title":"Front-End Developer",
+        "path":"KnowTeam/Ayomide"
+    },
+    {
+        "profilePic":"",
+        "Name":"Jimoh Oyindamola",
+        "title":"UI/UX Desiginer",
+        "path":"KnowTeam/Jimoh"
+    },
+    {
+        "profilePic":"../component/images/Rectangle 3390.svg",
+        "Name":"Daniel Ayeni",
+        "title":"Front-End Developer",
+        "path":"KnowTeam/Daniel"
+    },
+    {
+        "profilePic":"",
+        "Name":"Eben Teye",
+        "title":"Product Manager",
+        "path":"KnowTeam/Eben"
+    },
+    {
+        "profilePic":"../component/images/Rectangle 3390.svg",
+        "Name":"Abimbola Ameere",
+        "title":"Video Content Creator",
+        "path":"KnowTeam/Ameere"
+    },
+    {
+        "profilePic":"",
+        "Name":"Anthony Abimbola",
+        "title":"QA Tester",
+        "path":"KnowTeam/Anthony"
+    },
+    {
+        "profilePic":"../component/images/Rectangle 3390.svg",
+        "Name":"Anibi Adetoye",
+        "title":"Itern",
+        "path":"KnowTeam/Anibi"
+    }
+]  

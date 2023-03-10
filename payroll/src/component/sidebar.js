@@ -3,6 +3,7 @@ import Sidebaritem from "./sidebaritem";
 import logo from "./images/final-logo.31a11926.svg"
 import items from "../data/sidebar.json"
 
+
 function sidebar(){
     return(
         <div className="side-bar">

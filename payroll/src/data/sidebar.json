@@ -28,17 +28,17 @@
             {
                 "title":"Dashboard",
                 "icon":"bi bi-dot",
-                "path":"/dashboard"
+                "path":"/Dashboard"
             },
             {
                 "title":"Know Your Team",
                 "icon":"bi bi-dot",
-                "path":"/know-team"
+                "path":"/KnowTeam"
             },
             {
                 "title":"Know Your Products",
                 "icon":"bi bi-dot",
-                "path":"/know-product"
+                "path":"/KnowProducts"
             },
             {
                 "title":"Decision",
@@ -47,12 +47,12 @@
                     {
                         "title":"Make a decision",
                         "icon":"bi bi-dot",
-                        "path":"/make-decision"
+                        "path":"/MakeDecision"
                     },
                     {
                         "title":"View decision",
                         "icon":"bi bi-dot",
-                        "path":"/view-decision"
+                        "path":"/ViewDecision"
                     }
                 ]
             },
@@ -63,19 +63,19 @@
                     {
                         "title":"Make a suggestion",
                         "icon":"bi bi-dot",
-                        "path":"/make-suggestion"
+                        "path":"/MakeSuggestion"
                     },
                     {
                         "title":"View suggestion",
                         "icon":"bi bi-dot",
-                        "path":"/view-suggestion"
+                        "path":"/ViewSuggestion"
                     }
                 ]
             },
             {
                 "title":"Request Time off",
                 "icon":"bi bi-dot",
-                "path":"/request-time-off"
+                "path":"/RequestTimeOff"
             }
         
         ]
@@ -83,12 +83,12 @@
     {
         "title":"Settings",
         "icon":"bi bi-gear-fill",
-        "path":"/settings"
+        "path":"/Settings"
     },
     {
         "title":"Logout",
         "icon":"bi bi-box-arrow-left",
-        "path":"/logout"
+        "path":"/Logout"
     }
 
 ]

@@ -2,10 +2,10 @@
     display: none;
 }
 .side-bar{
-   grid-column:1/1;
-   grid-row: 1/-1;
+   /* grid-column:1/1;
+   grid-row: 1/-1; */
     flex-shrink:0;
-    width: 269px;
+    width: 260px;
     height: 100%;
     left: 0px;
     top: 0px;
@@ -17,6 +17,7 @@
     padding-top: 40px;
     overflow:auto;
     padding-right: 15px;
+    position: fixed;
    
 }
 .side-bar-logo img{
@@ -139,5 +140,8 @@ i.bi.bi-dot::before{
     margin-bottom: 0;
 }
 .Sidebaritem.open > .sidebar-title{
+    color: #00A859;
+}
+.sidebaritem-plain.click{
     color: #00A859;
 }

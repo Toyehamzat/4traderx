@@ -18,11 +18,10 @@
   }
  .app{
   display: grid;
-  grid-template-columns: 1fr 4fr ;
-  grid-template-rows: 1fr 4fr;
+  grid-template-columns: 241px 4fr ;
+  /* grid-template-rows: 4fr 1fr; */
   height: 100vh;
-
-  width: 100%;
+  width: 100vw;
 
  }
  .header-main{

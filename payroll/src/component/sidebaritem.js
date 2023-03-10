@@ -5,7 +5,7 @@ import { useState } from "react";
 function Sidebaritem({item}){
 
     const [open,setOpen] =useState(false)
-
+    const [click,setclick] =useState(false)
 
     if(item.childrens){
         return(
@@ -22,16 +22,13 @@ function Sidebaritem({item}){
                 </div>
                         
             </div>
-                
-            
         )
 
     } else{
         return(
-            <a href={item.path || "#"} className="sidebaritem-plain">
+            <a href={item.path || "#"} className={click? "sidebaritem-plain click" :"sidebaritem-plain"} onClick={() => setclick(!click)}>
                 {item.icon && <i className={item.icon}></i>}
                 {item.title}
-                 
             </a>
         )
     }

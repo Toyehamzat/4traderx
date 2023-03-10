@@ -1,13 +1,13 @@
 .Header{
-    grid-column:2/-1;
+    grid-column:1/-1;
     grid-row: 1/2;
-    position: relative;
-    padding-top: 40px;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-
+    align-items: center;
+    height: 100px;
+    background: transparent;
+  
     
 }
 .search-bar i{
@@ -41,27 +41,33 @@
     gap: 10px;
 }
 .notification{
+  
     text-align: center;
     align-items: center;
     justify-content: center;
     border-left: 1.5px solid #DDDDDD;
     border-right: 1.5px solid #DDDDDD;
-    height: 65px;
+    height: 60px;
     padding: 5px;
 
 }
  .noty{
     position: absolute;
-    top: 47%;
-    left: 74.3%;
+    top: 4.7%;
+    left: 76.5%;
  }
 .profile{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
 
 }
+.profile img{
+    height: 60px;
+}
 .profile div{
-    padding-top: 10px;
-    padding-left: 10px;
     align-items: center;
     justify-content: center;
     display: block;
@@ -86,4 +92,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 18px;
 color: #3D3D3D;
+}
+.Header-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #262626;
+
 }

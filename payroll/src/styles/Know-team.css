@@ -1,0 +1,211 @@
+.Know-team-page{
+     padding: 10px;
+     padding-right: 20px;
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     grid-template-rows: 0.1fr 4fr;
+     gap: 20px;
+     position: absolute;
+     left: 22%;
+
+
+}
+hr{
+    padding:0;
+}
+.Knowteamitem{
+    width: 421px;
+    margin: 0;
+    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+    background: #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+   
+    
+}
+.Knowteamitem img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    top: 21px;
+
+}
+.underprofilepic{
+    display: flex;
+    flex-direction: column;
+}
+.boldp{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #0E0E0E;
+}
+.notboldp{
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3B3B3B;
+    margin: 0;
+}
+.underprofilepic p{
+    margin: 0px;
+}
+.employee-list{
+    text-align: left;
+    padding: 4px;
+
+}
+.employees{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0E0E0E;
+    margin: 0;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.name-title{
+    align-items: center;
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    transition: all .4s ease-in-out;
+    color:#FBFBFB;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+.name-title:hover{
+    background-color:#00A859;
+    color:#FBFBFB;
+}
+.boldp1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    color: #0E0E0E;
+    transition: all .4s ease-in-out;
+}
+.notboldp1{
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3B3B3B;
+    margin: 0;
+    text-align: right; 
+    transition: all .4s ease-in-out;
+}
+.name-title.toggle{
+    background-color: #00A859;
+}
+.name-title.toggle > .boldp1{
+    color:#FBFBFB;
+    transition: all .4s ease-in-out;
+}
+.name-title.toggle > .notboldp1{
+    color:#FBFBFB;
+    transition: all .4s ease-in-out;
+}
+.know{
+    background: #FFFFFF;
+box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+border-radius: 5px;
+padding-top: 20px;
+
+   
+}
+.know>div{
+    padding: 0px 20px;
+}
+.title{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #0E0E0E;
+}
+.flex-this{
+    display: flex;
+    gap: 70px;
+}
+.BOLDP{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+/* margin: 15px; */
+margin-top: 16px;
+margin-bottom: 16px;
+
+
+color: #0E0E0E;
+
+
+}
+.NOTBOLDP{
+/* margin: 15px; */
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+margin-top: 16px;
+margin-bottom: 16px;
+
+
+
+color: #414141;
+}
+.flex1{
+    display: flex;
+    gap: 150px;
+}
+.flex2{
+    display: flex;
+    gap: 135px;
+}
+.flex3{
+    display: flex;
+    gap: 130px;
+}
+.flex4{
+    display: flex;
+    gap: 178px;
+}
+.flex5{
+    display: flex;
+    gap: 118px;
+}
+.flex6{
+    display: flex;
+    gap: 70px;
+}
+.flex7{
+    display: flex;
+    gap: 70px;
+}
+.flex8{
+    display: flex;
+    gap: 70px;
+}
+.flex9{
+    display: flex;
+    gap: 70px;
+}
+

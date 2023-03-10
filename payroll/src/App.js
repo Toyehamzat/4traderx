@@ -3,20 +3,37 @@ import "./App.css"
 import "../src/styles/side-bar.css"
 import Sidebar from "./component/sidebar";
 import Header from "./component/Header"
-import Main from "./component/main"
-import { BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
+import KnowProducts from "./pages/Know-products";
+import KnowTeam from "./pages/Know-team"
+import MakeDecision from "./pages/Make-decision"
+import ViewDecision from "./pages/View-decision"
+import MakeSuggestion from "./pages/Make-suggestion";
+import ViewSuggestion from "./pages/View-suggestion"
+import  RequestTimeOff from "./pages/Request-time-off"
+import KnowMicheal from "./pages/KnowMicheal";
+
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 function App() {
   return (
     <div className='app'>
-      <Router>
-          <Sidebar/>
-      </Router>
-       
-       <Header/>
-        <Main/>
-       
-       
+     <Sidebar/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element ={<Sidebar/>}/>
+          <Route path="/Dashboard" element={<Dashboard/>}/>
+          <Route path="/KnowTeam" element={<KnowTeam/>}/>
+          <Route path="/KnowProducts" element={<KnowProducts/>}/>
+          <Route path="/MakeDecision" element={<MakeDecision/>}/>
+          <Route path="/ViewDecision" element={<ViewDecision/>}/>
+          <Route path="/MakeSuggestion" element={<MakeSuggestion/>}/>
+          <Route path="/ViewSuggestion" element={<ViewSuggestion/>}/>
+          <Route path="/RequestTimeOff" element={<RequestTimeOff/>}/>
+        </Routes>
+      
+      </BrowserRouter>
+
     </div>
   );
 }
