@@ -20,7 +20,7 @@ function KnowTeam(){
             <div className="notification-profile">
                 <div className="notification">
                         <img  src={background} alt="logo"/>
-                        <img  className="noty" src={notfication} alt="logo"/>
+                        {/* <img  className="noty" src={notfication} alt="logo"/> */}
                 </div>
                 <div className="profile">
                     <img src={profile} alt="logo"/>

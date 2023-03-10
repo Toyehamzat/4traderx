@@ -1,0 +1,225 @@
+.Know-products{
+    padding: 10px;
+    padding-right: 60px;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 4fr;
+    position: absolute;
+    left: 23%;
+   
+
+
+}
+.Header{
+    grid-column:1/-1;
+    grid-row: 1/2;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: transparent;
+  
+    
+}
+.search-bar i{
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    color: #9F9F9F;
+    font-size: 18px;
+
+}
+.search-bar input{
+    width: 604px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+    outline: none;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #9F9F9F;
+    padding-left: 50px;
+
+}
+.notification-profile{
+    display: flex;
+    height: 70px;
+    gap: 10px;
+}
+.notification{
+  
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-left: 1.5px solid #DDDDDD;
+    border-right: 1.5px solid #DDDDDD;
+    height: 60px;
+    padding: 5px;
+
+}
+ .noty{
+    position: absolute;
+    top: 4.4%;
+    left: 73.16%;
+ }
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.profile img{
+    height: 60px;
+}
+.profile div{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: left;
+}
+.profile div p {
+    margin: 0%;
+
+}
+.name{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #3D3D3D;
+}
+.x{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #3D3D3D;
+}
+.Header-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #262626;
+
+}
+.know-product-content{
+
+    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+    background: #FFFFFF;
+    border-radius: 5px;
+
+}
+.know-product-content-title{
+    padding-left: 20px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #0E0E0E;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flex p{
+    margin: 0;
+    font-weight: 600;
+font-size: 12px;
+line-height: 120%;
+color: #00A859;
+justify-content: center;
+align-items: center;
+background: #F3F3F3;
+border-radius: 5px;
+padding: 4px;
+}
+.products ul{
+    padding-left: 50px;
+}
+.products ul li{
+    margin: 10px;
+    list-style: circle;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #676767;
+}
+li::marker{
+    font-size: 18px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(206, 206, 206, 0.02);
+    color: #676767;
+}
+.deg{
+    position: absolute;
+    top: 57.1%;
+    transform: rotate(-90deg);
+    width: 924px;
+    margin: 0;
+    right: 31%;
+}
+.main-content{
+    display: flex;
+    gap: 30px;
+}
+.details-title{
+   
+    margin-bottom: 10px;
+    margin-top: 10px;
+padding-left: 20px;
+ font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+color: #0E0E0E;
+}
+.details{
+    width: 600px;
+    text-align: left;
+}
+.details ol{
+    
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+color: #636363;
+
+}
+.decimal li{
+    list-style:decimal;
+}
+.decimal{
+    margin: 0;
+}
+.lower-alpha li {
+    list-style: lower-alpha;
+   
+}
+.lower-roman li{
+    list-style: lower-roman;
+}
+.lower-alpha{
+    padding-left: 20px;
+}
+.lower-roman{
+    padding-left: 25px;
+}

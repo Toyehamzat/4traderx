@@ -6,12 +6,14 @@
      grid-template-rows: 0.1fr 4fr;
      gap: 20px;
      position: absolute;
-     left: 22%;
+     left: 24%;
+     padding-left: 0;
 
 
 }
 hr{
     padding:0;
+    border: 0.5px solid #B7B7B7;
 }
 .Knowteamitem{
     width: 421px;
@@ -25,6 +27,7 @@ hr{
    
     
 }
+
 .Knowteamitem img{
     width: 100%;
     border-radius: 5px 5px 0px 0px;
@@ -147,7 +150,7 @@ color: #0E0E0E;
     font-family: 'Mulish';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: 18px;
 line-height: 25px;
 /* margin: 15px; */
 margin-top: 16px;
