@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css"
 import "../src/styles/side-bar.css"
 import Sidebar from "./component/sidebar";
-import Header from "./component/Header"
 import Dashboard from "./pages/Dashboard";
 import KnowProducts from "./pages/Know-products";
 import KnowTeam from "./pages/Know-team"
@@ -12,6 +11,7 @@ import MakeSuggestion from "./pages/Make-suggestion";
 import ViewSuggestion from "./pages/View-suggestion"
 import  RequestTimeOff from "./pages/Request-time-off"
 import KnowMicheal from "./pages/KnowMicheal";
+import Account from "./pages/Account";
 
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
@@ -22,6 +22,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element ={<Sidebar/>}/>
+          <Route path="/account" element={<Account/>}/>
           <Route path="/Dashboard" element={<Dashboard/>}/>
           <Route path="/KnowTeam" element={<KnowTeam/>}/>
           <Route path="/KnowProducts" element={<KnowProducts/>}/>
@@ -30,6 +31,7 @@ function App() {
           <Route path="/MakeSuggestion" element={<MakeSuggestion/>}/>
           <Route path="/ViewSuggestion" element={<ViewSuggestion/>}/>
           <Route path="/RequestTimeOff" element={<RequestTimeOff/>}/>
+         
         </Routes>
       
       </BrowserRouter>

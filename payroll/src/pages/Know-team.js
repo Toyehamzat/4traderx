@@ -1,13 +1,13 @@
 import React from "react";
 import teams from "../data/team.json"
-import "../styles/Header.css"
+// import "../styles/Header.css"
 import "../styles/Know-team.css"
 import notfication from "../component/images/Vector (3).svg"
 import background from "../component/images/Ellipse 1103 (1).svg"
 import profile from "../component/images/Ellipse 1076.svg"
 import profilePic from "../component/images/Rectangle 3390.svg"
 import EmployeeList from "./EmployeeList";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import {  BrowserRouter,Route, Routes } from "react-router-dom";
 import KnowMicheal from "./KnowMicheal";
 function KnowTeam(){
 
@@ -20,7 +20,7 @@ function KnowTeam(){
             <div className="notification-profile">
                 <div className="notification">
                         <img  src={background} alt="logo"/>
-                        {/* <img  className="noty" src={notfication} alt="logo"/> */}
+                        {/* <img  className="noty1" src={notfication} alt="logo"/> */}
                 </div>
                 <div className="profile">
                     <img src={profile} alt="logo"/>
@@ -47,11 +47,9 @@ function KnowTeam(){
             </div>
         </div>
         <KnowMicheal/>
-        {/* <Routes>
-            <Route>
-            <Route path="/KnowTeam/Micheal" element={<KnowMicheal/>}/>
-            </Route>
-        </Routes> */}
+
+       
+       
   </div>
     
 

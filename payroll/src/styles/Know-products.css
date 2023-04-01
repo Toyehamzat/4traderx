@@ -1,20 +1,16 @@
 .Know-products{
-    padding: 10px;
-    padding-right: 60px;
-    display: grid;
-    width: 1000px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 4fr;
-    position: absolute;
-    left: 23%;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    grid-column:2/-1;
+    position: relative;
    
 
 
 }
 .Header{
-    grid-column:1/-1;
-    grid-row: 1/2;
-    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,38 +19,13 @@
   
     
 }
-.search-bar i{
-    position: absolute;
-    top: 45%;
-    left: 4%;
-    color: #9F9F9F;
-    font-size: 18px;
 
-}
-.search-bar input{
-    width: 604px;
-    height: 64px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
-    outline: none;
-    border: none;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    color: #9F9F9F;
-    padding-left: 50px;
-
-}
 .notification-profile{
     display: flex;
     height: 70px;
     gap: 10px;
 }
 .notification{
-  
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -64,10 +35,10 @@
     padding: 5px;
 
 }
- .noty{
-    position: absolute;
-    top: 4.4%;
-    left: 73.16%;
+.noty {
+    position:absolute;
+    top: 7%;
+    left: 80.7%;
  }
 .profile{
     display: flex;
@@ -115,7 +86,6 @@ color: #3D3D3D;
 
 }
 .know-product-content{
-
     box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
     background: #FFFFFF;
     border-radius: 5px;
@@ -147,8 +117,12 @@ background: #F3F3F3;
 border-radius: 5px;
 padding: 4px;
 }
+.products{
+    border-right:2px solid #DDDDDD;
+}
 .products ul{
     padding-left: 50px;
+    padding-right: 20px;
 }
 .products ul li{
     margin: 10px;
@@ -166,17 +140,10 @@ li::marker{
     box-shadow: 0px 4px 4px rgba(206, 206, 206, 0.02);
     color: #676767;
 }
-.deg{
-    position: absolute;
-    top: 57.1%;
-    transform: rotate(-90deg);
-    width: 924px;
-    margin: 0;
-    right: 31%;
-}
+
 .main-content{
     display: flex;
-    gap: 30px;
+    
 }
 .details-title{
    

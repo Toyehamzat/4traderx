@@ -1,15 +1,90 @@
+.Header{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: transparent;
+  
+    
+}
+
+.notification-profile{
+    display: flex;
+    height: 70px;
+    gap: 10px;
+}
+.notification{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-left: 1.5px solid #DDDDDD;
+    border-right: 1.5px solid #DDDDDD;
+    height: 60px;
+    padding: 5px;
+
+}
+.noty1{
+    position:absolute;
+    top: 7%;
+    left: 80.4%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.profile img{
+    height: 60px;
+}
+.profile div{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: left;
+}
+.profile div p {
+    margin: 0%;
+
+}
+.name{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+color: #3D3D3D;
+}
+.x{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #3D3D3D;
+}
+.Header-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: #262626;
+
+}
 .Know-team-page{
-     padding: 10px;
-     padding-right: 20px;
+      grid-column:2/-1;
+     padding-top: 10px;
+     padding-right: 40px;
+     padding-left: 40px;
      display: grid;
      grid-template-columns: 1fr 4fr;
      grid-template-rows: 0.1fr 4fr;
      gap: 20px;
-     position: absolute;
-     left: 24%;
-     padding-left: 0;
-
-
+   
 }
 hr{
     padding:0;
@@ -17,7 +92,6 @@ hr{
 }
 .Knowteamitem{
     width: 421px;
-    margin: 0;
     box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
     background: #FFFFFF;
     border-radius: 5px;
@@ -125,10 +199,9 @@ hr{
 }
 .know{
     background: #FFFFFF;
-box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
-border-radius: 5px;
-padding-top: 20px;
-
+    box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
+   border-radius: 5px;
+    padding-top: 20px;
    
 }
 .know>div{
@@ -189,11 +262,11 @@ color: #414141;
 }
 .flex4{
     display: flex;
-    gap: 178px;
+    gap: 173px;
 }
 .flex5{
     display: flex;
-    gap: 118px;
+    gap: 120px;
 }
 .flex6{
     display: flex;
