@@ -47,7 +47,7 @@ function KnowProducts(){
                         </li>
                     </ul>
                 </div>
-                {/* <hr className="deg"/> */}
+            
                 <div className="details">
                     <p className="details-title">Peer-to-Peer Exchange</p>
                     <ol className="decimal">
