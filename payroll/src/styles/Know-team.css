@@ -1,20 +1,22 @@
-.Header{
+.Header {
     grid-column: 1/-1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     background: transparent;
-  
-    
+    width: 100%;
+
+
 }
 
-.notification-profile{
+.notification-profile {
     display: flex;
     height: 70px;
     gap: 10px;
 }
-.notification{
+
+.notification {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -24,13 +26,14 @@
     padding: 5px;
 
 }
-.noty1{
-    position:absolute;
+
+.noty1 {
+    position: absolute;
     top: 7%;
     left: 80.4%;
 }
 
-.profile{
+.profile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,36 +41,42 @@
     gap: 10px;
 
 }
-.profile img{
+
+.profile img {
     height: 60px;
 }
-.profile div{
+
+.profile div {
     align-items: center;
     justify-content: center;
     display: block;
     text-align: left;
 }
+
 .profile div p {
     margin: 0%;
 
 }
-.name{
+
+.name {
     font-family: 'Mulish';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 18px;
-color: #3D3D3D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3D3D3D;
 }
-.x{
+
+.x {
     font-family: 'Mulish';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-color: #3D3D3D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3D3D3D;
 }
-.Header-title{
+
+.Header-title {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -75,22 +84,35 @@ color: #3D3D3D;
     color: #262626;
 
 }
-.Know-team-page{
-      grid-column:2/-1;
-     padding-top: 10px;
-     padding-right: 40px;
-     padding-left: 40px;
-     display: grid;
-     grid-template-columns: 1fr 4fr;
-     grid-template-rows: 0.1fr 4fr;
-     gap: 20px;
-   
+
+.Know-team-page {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100vh;
+    width: 100vw;
 }
-hr{
-    padding:0;
+
+.Div {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 20px;
+    grid-column: 2/-1;
+    width: 1010px;
+}
+
+.know-team-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+hr {
+    padding: 0;
     border: 0.5px solid #B7B7B7;
 }
-.Knowteamitem{
+
+.Knowteamitem {
     width: 421px;
     box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
     background: #FFFFFF;
@@ -98,21 +120,24 @@ hr{
     align-items: center;
     text-align: center;
     padding: 0;
-   
-    
+    grid-column: 0.1/2;
+
+
 }
 
-.Knowteamitem img{
+.Knowteamitem img {
     width: 100%;
     border-radius: 5px 5px 0px 0px;
     top: 21px;
 
 }
-.underprofilepic{
+
+.underprofilepic {
     display: flex;
     flex-direction: column;
 }
-.boldp{
+
+.boldp {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -120,7 +145,8 @@ hr{
     line-height: 28px;
     color: #0E0E0E;
 }
-.notboldp{
+
+.notboldp {
     font-family: 'Mulish';
     font-style: italic;
     font-weight: 500;
@@ -129,15 +155,18 @@ hr{
     color: #3B3B3B;
     margin: 0;
 }
-.underprofilepic p{
+
+.underprofilepic p {
     margin: 0px;
 }
-.employee-list{
+
+.employee-list {
     text-align: left;
     padding: 4px;
 
 }
-.employees{
+
+.employees {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -149,23 +178,26 @@ hr{
     padding-bottom: 10px;
     text-align: left;
 }
-.name-title{
+
+.name-title {
     align-items: center;
     height: 59px;
     display: flex;
     justify-content: space-between;
     transition: all .4s ease-in-out;
-    color:#FBFBFB;
+    color: #FBFBFB;
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
 }
-.name-title:hover{
-    background-color:#00A859;
-    color:#FBFBFB;
+
+.name-title:hover {
+    background-color: #00A859;
+    color: #FBFBFB;
 }
-.boldp1{
+
+.boldp1 {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
@@ -175,7 +207,8 @@ hr{
     color: #0E0E0E;
     transition: all .4s ease-in-out;
 }
-.notboldp1{
+
+.notboldp1 {
     font-family: 'Mulish';
     font-style: italic;
     font-weight: 500;
@@ -183,105 +216,66 @@ hr{
     line-height: 20px;
     color: #3B3B3B;
     margin: 0;
-    text-align: right; 
+    text-align: right;
     transition: all .4s ease-in-out;
 }
-.name-title.toggle{
-    background-color: #00A859;
-}
-.name-title.toggle > .boldp1{
-    color:#FBFBFB;
-    transition: all .4s ease-in-out;
-}
-.name-title.toggle > .notboldp1{
-    color:#FBFBFB;
-    transition: all .4s ease-in-out;
-}
-.know{
+
+
+.know {
     background: #FFFFFF;
     box-shadow: 5px 5px 4px rgba(65, 65, 65, 0.1);
-   border-radius: 5px;
+    border-radius: 5px;
     padding-top: 20px;
-   
+    width: 579px;
 }
-.know>div{
+
+.know>div {
     padding: 0px 20px;
 }
-.title{
+
+.title {
     font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-color: #0E0E0E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0E0E0E;
+    margin-bottom: 17px;
 }
-.flex-this{
+
+.flex-this {
     display: flex;
     gap: 70px;
 }
-.BOLDP{
+
+.BOLDP {
     font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 25px;
-/* margin: 15px; */
-margin-top: 16px;
-margin-bottom: 16px;
-
-
-color: #0E0E0E;
-
-
-}
-.NOTBOLDP{
-/* margin: 15px; */
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
-margin-top: 16px;
-margin-bottom: 16px;
-
-
-
-color: #414141;
-}
-.flex1{
-    display: flex;
-    gap: 150px;
-}
-.flex2{
-    display: flex;
-    gap: 135px;
-}
-.flex3{
-    display: flex;
-    gap: 130px;
-}
-.flex4{
-    display: flex;
-    gap: 173px;
-}
-.flex5{
-    display: flex;
-    gap: 120px;
-}
-.flex6{
-    display: flex;
-    gap: 70px;
-}
-.flex7{
-    display: flex;
-    gap: 70px;
-}
-.flex8{
-    display: flex;
-    gap: 70px;
-}
-.flex9{
-    display: flex;
-    gap: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 7px;
+    color: #0E0E0E;
 }
 
+.NOTBOLDP {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 7px;
+    color: #414141;
+}
+
+.know div {
+    display: flex;
+
+}
+
+.know div div {
+    margin-top: 6px;
+    flex: 1 1;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
